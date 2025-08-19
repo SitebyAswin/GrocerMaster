@@ -2,7 +2,8 @@ name: Build Flutter APK
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "grocery_duolingo" ]   # change from main to master if that's your branch
+
 
 jobs:
   build:
